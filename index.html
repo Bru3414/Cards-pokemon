@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Cards</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+</head>
+<body style="background-color: rgb(6, 15, 94);">
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Pokemon Cards</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="pok-carousel">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div id="poke-carousel" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div data-bs-interval="5000" class="carousel-item active">
+                                <img src="https://cdn.wallpapersafari.com/34/77/QU3EJh.jpg">
+                                <div class="carousel-caption">
+                                    <h2>Pokemon cards</h2>
+                                </div>
+                            </div>
+                            <div data-bs-interval="5000" class="carousel-item">
+                                <img src="https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700074662.jpg">
+                                <div class="carousel-caption">
+                                    <h2>Pokemon cards</h2>
+                                </div>
+                            </div>
+                            <div data-bs-interval="5000" class="carousel-item">
+                                <img src="https://i.pinimg.com/originals/52/11/79/52117966ae1cc88ef5486aed328c2cb9.jpg">
+                                <div class="carousel-caption">
+                                    <h2>Pokemon cards</h2>
+                                </div>
+                            </div>
+                            <div data-bs-interval="5000" class="carousel-item">
+                                <img src="https://images4.alphacoders.com/838/thumb-1920-838843.png">
+                                <div class="carousel-caption">
+                                    <h2>Pokemon cards</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#poke-carousel" type="button">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#poke-carousel" type="button">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#poke-carousel" data-bs-slide-to="0" class="active"></button>
+                            <button type="button" data-bs-target="#poke-carousel" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#poke-carousel" data-bs-slide-to="2"></button>
+                            <button type="button" data-bs-target="#poke-carousel" data-bs-slide-to="3"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cards">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="nav nav-tabs">
+                        <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#agua">Água</button>
+                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#planta">Planta</button>
+                    </nav>
+                </div>
+            </div>
+        </div>
+                <div class="tab-content tab-conteudo">
+                    <div id="agua" class="tab-pane active">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-6 col-lg-4">
+                                    <div class="card">
+                                        <header class="card-header">
+                                            <h2 class="card-title">Squirtle</h3>
+                                            <div class="status">
+                                                <span>HP: 60</span>
+                                            </div>
+                                        </header>
+                                        <img src="https://cdn.wallpapersafari.com/90/0/agdvL4.jpg">
+                                        <div class="card-body">
+                                            <div class="habilidades">
+                                                <h4 class="card-subtitle">Bubble</h4>
+                                                <p class="card-text">Lança bolhas contra o oponente</p>
+                                                <h4 class="card-subtitle">Water Gun</h4>
+                                                <p class="card-text">Lança um jato de água no oponente</p>
+                                            </div>
+                                            <div class="icon-div">
+                                                <img class="icon" src="https://i.pinimg.com/originals/c7/0a/42/c70a42f678011a5ed49ac1926b1f233e.png">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-12 col-md-6 col-lg-4">
+                                    <div class="card">
+                                        <header class="card-header">
+                                            <h2 class="card-title">Greninja</h3>
+                                            <div class="status">
+                                                <span>HP: 120</span>
+                                            </div>
+                                        </header>
+                                        <img src="https://archives.bulbagarden.net/media/upload/thumb/7/77/Ash_Greninja.png/1200px-Ash_Greninja.png">
+                                        <div class="card-body">
+                                            <div class="habilidades">
+                                                <h4 class="card-subtitle">Water Shuriken</h4>
+                                                <p class="card-text">Lança uma shuriken de água no oponente</p>
+                                                <h4 class="card-subtitle">Double Team</h4>
+                                                <p class="card-text">Aumenta a evasão do usuário em um estágio.</p>
+                                            </div>
+                                            <div class="icon-div">
+                                                <img class="icon" src="https://i.pinimg.com/originals/c7/0a/42/c70a42f678011a5ed49ac1926b1f233e.png">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-12 col-md-6 col-lg-4">
+                                    <div class="card">
+                                        <header class="card-header">
+                                            <h2 class="card-title">Gyarados</h3>
+                                            <div class="status">
+                                                <span>HP: 150</span>
+                                            </div>
+                                        </header>
+                                        <img src="https://thenerdstash.com/wp-content/uploads/2022/01/Pokemon-Diamond-Pearl-Gyarados.jpg">
+                                        <div class="card-body">
+                                            <div class="habilidades">
+                                                <h4 class="card-subtitle">Intimidate</h4>
+                                                <p class="card-text">Ao entrar numa batalha, o Pokémon baixa o ataque no adversário em 1 Stage</p>
+                                                <h4 class="card-subtitle">Dragon Rage</h4>
+                                                <p class="card-text">Sempre inflige exatamente 40 HP de dano se acertar</p>
+                                            </div>
+                                            <div class="icon-div">
+                                                <img class="icon" src="https://i.pinimg.com/originals/c7/0a/42/c70a42f678011a5ed49ac1926b1f233e.png">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="planta" class="tab-pane">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-6 col-lg-4">
+                                    <div class="card">
+                                        <header class="card-header">
+                                            <h2 class="card-title">Bulbasaur</h3>
+                                            <div class="status">
+                                                <span>HP: 60</span>
+                                            </div>
+                                        </header>
+                                        <img src="https://assets.suaramerdeka.com/crop/0x0:0x0/750x500/webp/photo/2023/03/14/bulbasaur-2452821447.png">
+                                        <div class="card-body">
+                                            <div class="habilidades">
+                                                <h4 class="card-subtitle">Vine Whip</h4>
+                                                <p class="card-text">Golpeia o oponente com um chicote de vinhas</p>
+                                                <h4 class="card-subtitle">Seed Bomb</h4>
+                                                <p class="card-text">Lança sementes explosivas no oponente</p>
+                                            </div>
+                                            <div class="icon-div">
+                                                <img class="icon" src="https://lh3.googleusercontent.com/ibr-fnrizmrDQGtfBDPmclzjvQJp4gL7PkGZaYWKZcFwJ6vEwm-Tv_A-ev0AaoqSo4DFTkph0rySgO3lpXZX6ZsPmp1Gn71oXHaWO41TyBufkQ">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-12 col-md-6 col-lg-4">
+                                    <div class="card">
+                                        <header class="card-header">
+                                            <h2 class="card-title">Ludicolo</h3>
+                                            <div class="status">
+                                                <span>HP: 90</span>
+                                            </div>
+                                        </header>
+                                        <img src="https://pm1.narvii.com/6328/ae484a53f822f9625548b55883b4a8652935cf62_00.jpg">
+                                        <div class="card-body">
+                                            <div class="habilidades">
+                                                <h4 class="card-subtitle">Vine Whip</h4>
+                                                <p class="card-text">Golpeia o oponente com um chicote de vinhas</p>
+                                                <h4 class="card-subtitle">Seed Bomb</h4>
+                                                <p class="card-text">Lança sementes explosivas no oponente</p>
+                                            </div>
+                                            <div class="icon-div">
+                                                <img class="icon" src="https://lh3.googleusercontent.com/ibr-fnrizmrDQGtfBDPmclzjvQJp4gL7PkGZaYWKZcFwJ6vEwm-Tv_A-ev0AaoqSo4DFTkph0rySgO3lpXZX6ZsPmp1Gn71oXHaWO41TyBufkQ">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>   
+                    
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                            <div class="card">
+                                <header class="card-header">
+                                    <h2 class="card-title">Sceptile</h3>
+                                    <div class="status">
+                                        <span>HP: 150</span>
+                                    </div>
+                                </header>
+                                <img src="https://archives.bulbagarden.net/media/upload/thumb/f/f3/Ash_Sceptile.png/800px-Ash_Sceptile.png">
+                                <div class="card-body">
+                                    <div class="habilidades">
+                                        <h4 class="card-subtitle">Vine Whip</h4>
+                                        <p class="card-text">Golpeia o oponente com um chicote de vinhas</p>
+                                        <h4 class="card-subtitle">Seed Bomb</h4>
+                                        <p class="card-text">Lança sementes explosivas no oponente</p>
+                                    </div>
+                                    <div class="icon-div">
+                                        <img class="icon" src="https://lh3.googleusercontent.com/ibr-fnrizmrDQGtfBDPmclzjvQJp4gL7PkGZaYWKZcFwJ6vEwm-Tv_A-ev0AaoqSo4DFTkph0rySgO3lpXZX6ZsPmp1Gn71oXHaWO41TyBufkQ">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./bootstrap.bundle.min.js"></script>
+</body>
+</html>

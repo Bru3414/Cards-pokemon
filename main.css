@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: yellow;
+    margin-bottom: 40px;
+    padding: 10px;
+    border-bottom: 8px solid rgb(110, 110, 12);
+}
+
+.pok-carousel img{
+    width: 100%;
+    border-radius: 30px;
+}
+
+.cards nav {
+    justify-content: center;
+}
+
+#agua .card .card-body,
+#agua .card .card-header{
+    background-color: rgb(3, 61, 168);
+}
+
+#agua .habilidades {
+    background-color: rgba(0, 153, 255, 0.7);
+}
+
+#planta .card .card-body,
+#planta .card .card-header{
+    background-color: rgb(3, 168, 3);
+}
+
+#planta .habilidades {
+    background-color: rgb(55, 209, 55);
+}
+
+#fogo .card .card-body,
+#fogo .card .card-header{
+    background-color: rgb(168, 3, 3);
+}
+
+#fogo .habilidades {
+    background-color: rgba(255, 0, 0, 0.7);
+}
+
+#eletrico .card .card-body,
+#eletrico .card .card-header{
+    background-color: rgb(182, 185, 12);
+    color: #000;
+}
+
+#eletrico .habilidades {
+    background-color: rgb(238, 255, 0);
+    color: #000;
+}
+
+.card>img {
+    max-height: 188px;
+}
+
+.card .card-body{
+    text-align: center;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.card .card-header {
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.habilidades { 
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.habilidades p{
+    text-align: left;
+}
+
+.icon-div {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.icon {
+    height: 50px;
+    background-color: transparent;
+}
+
+.status span {
+    border-radius: 90px;
+    padding: 15px;
+    background-color: yellow;
+    color: #000;
+    font-weight: bold;
+}
+
+.card,
+nav {
+    margin-top: 30px;
+}
+
+.card .card-header {
+    border: none;
+}
+
+.card-img-overlay .card-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-img-overlay .ps,
+.card-img-overlay .card-title {
+    background-color: rgba(0, 153, 255, 0.7);
+    border: 1px solid #000;
+    border-radius: 15px;
+    color: #000;
+}
+
+.card-img-overlay .ps h3,
+.card-img-overlay .card-title {
+    padding-top: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.card-subtitle {
+    font-size: 20px;
+}
